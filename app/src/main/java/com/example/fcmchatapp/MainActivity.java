@@ -1,4 +1,4 @@
-package it.example.fcmchatapp;
+package com.example.fcmchatapp;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                             .build();
 
                     Request request = new Request.Builder()
-                            .url("http://192.168.1.100:8080/api/fcm/save-token") // Sostituire con IP reale del server
+                            .url("http://10.0.2.2:8080/api/fcm/save-token") // Sostituire con IP reale del server
                             .header("Authorization", "Bearer " + "<JWT_TOKEN>") // Sostituire con JWT reale
                             .post(body)
                             .build();

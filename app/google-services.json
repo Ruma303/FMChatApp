@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:375627640990:android:f147c75a42dd58ae7dcb8f",
         "android_client_info": {
-          "package_name": "it.example.fcmchatapp"
+          "package_name": "com.example.fcmchatapp"
         }
       },
       "oauth_client": [],
